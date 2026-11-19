@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "source_name": "guide.pdf",
+  "parsed_rule_count": 1,
+  "rules": [
+    {
+      "rule_name": "결근계 사전 승인",
+      "rule_text": "결근계는 소속부서 상사의 사전 승인을 받아야 한다.",
+      "template_id": null,
+      "template_hint": "결근계",
+      "source_excerpt": "소속부서 상사에게 결근계를 제출하여 승인을 얻어야 한다.",
+      "approvers": [
+        {
+          "approver_member_id": null,
+          "approval_order": 1,
+          "approval_type": "결재",
+          "approver_hint": "소속부서 상사"
+        }
+      ],
+      "validation_errors": ["적용 양식을 선택하세요.", "1차 결재자를 선택하세요."],
+      "review_notes": []
+    }
+  ]
+}

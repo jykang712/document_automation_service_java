@@ -1,0 +1,8 @@
+{
+  "rule_name": "검증_출장 규칙",
+  "rule_text": "선택한 조직원이 최종 승인합니다.",
+  "template_id": 1,
+  "approvers": [
+    { "approver_member_id": 1, "approval_order": 1, "approval_type": "최종승인" }
+  ]
+}

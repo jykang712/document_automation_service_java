@@ -1,0 +1,49 @@
+[
+  {
+    "key": "requester",
+    "label": "신청자",
+    "type": "string",
+    "required": true,
+    "cell_ids": [
+      "t0_r0_c1",
+      "t0_r4_c1"
+    ]
+  },
+  {
+    "key": "department",
+    "label": "부서",
+    "type": "string",
+    "required": true,
+    "cell_id": "t0_r1_c1"
+  },
+  {
+    "key": "request_date_year",
+    "label": "신청일 년",
+    "type": "string",
+    "required": true,
+    "cell_id": "t0_r2_c1",
+    "cell_template": "{{request_date_year}}년 {{request_date_month}}월 {{request_date_day}}일"
+  },
+  {
+    "key": "request_date_month",
+    "label": "신청일 월",
+    "type": "string",
+    "required": true,
+    "cell_ids": []
+  },
+  {
+    "key": "request_date_day",
+    "label": "신청일 일",
+    "type": "string",
+    "required": true,
+    "cell_ids": []
+  },
+  {
+    "key": "content",
+    "label": "신청 내용",
+    "type": "textarea",
+    "required": true,
+    "description": "사용자가 설명한 신청 사유와 상세 내용",
+    "cell_id": "t0_r3_c1"
+  }
+]
